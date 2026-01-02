@@ -1,9 +1,8 @@
 import Hero from "@/components/home/Hero";
-import CredibilityStatement from "@/components/home/CredibilityStatement";
-import IndustryProblems from "@/components/home/IndustryProblems";
-import Framework from "@/components/home/Framework";
-import Proof from "@/components/home/Proof";
-import WhyTrustMe from "@/components/home/WhyTrustMe";
+import ServicesOverview from "@/components/home/ServicesOverview";
+import IndustriesFocus from "@/components/home/IndustriesFocus";
+import Approach from "@/components/home/Approach";
+import InsightsPreview from "@/components/home/InsightsPreview";
 import FinalCTA from "@/components/home/FinalCTA";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -13,11 +12,10 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
-      <CredibilityStatement />
-      <IndustryProblems />
-      <Framework />
-      <Proof />
-      <WhyTrustMe />
+      <ServicesOverview />
+      <IndustriesFocus />
+      <Approach />
+      <InsightsPreview />
       <FinalCTA />
       <Footer />
     </main>
