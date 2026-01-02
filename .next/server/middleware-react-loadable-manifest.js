@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"components/contact/MultiStepForm.tsx -> @/lib/supabase\":{\"id\":\"components/contact/MultiStepForm.tsx -> @/lib/supabase\",\"files\":[\"static/chunks/_app-pages-browser_lib_supabase_ts.js\"]}}"
