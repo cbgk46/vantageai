@@ -23,8 +23,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Production-Ready AI Systems | Gokul Krishnaa",
-  description: "I help specialty medical practices, accounting firms, and real estate brokerages implement AI workflows that save 10-20 hours per week—leveraging my experience at DataStax (the team behind LangFlow).",
+  title: "AI Consulting Services | Practical AI That Drives Business Outcomes",
+  description: "We partner with leadership teams to apply AI in ways that directly support their business goals. Specializing in real estate, healthcare, and professional services firms.",
 };
 
 export default function RootLayout({

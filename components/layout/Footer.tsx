@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-heading font-bold mb-4">Gokul Krishnaa</h3>
             <p className="text-primary-300 mb-4 max-w-md">
-              Production-ready AI systems for businesses that want results in weeks, not months.
+              Practical AI that drives meaningful business outcomes for real estate, healthcare, and professional services firms.
             </p>
             <div className="flex space-x-4">
               <a
@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -38,13 +38,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies" className="text-primary-300 hover:text-teal-400 transition-colors">
-                  Case Studies
+                <Link href="/insights" className="text-primary-300 hover:text-teal-400 transition-colors">
+                  Insights
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-primary-300 hover:text-teal-400 transition-colors">
-                  About
+                <Link href="/contact" className="text-primary-300 hover:text-teal-400 transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -65,15 +65,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://calendly.com/krishnaa-gokul/30min"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/contact"
                   className="flex items-center space-x-2 text-primary-300 hover:text-teal-400 transition-colors"
                 >
-                  <Calendar className="h-4 w-4" />
-                  <span>Book a Call</span>
-                </a>
+                  <Mail className="h-4 w-4" />
+                  <span>Contact Us</span>
+                </Link>
               </li>
             </ul>
           </div>
